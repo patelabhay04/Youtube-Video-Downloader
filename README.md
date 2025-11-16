@@ -14,37 +14,53 @@ Real-time success confirmation via modal prompts
 
 Lightweight and easy to run on any system with Python installed
 
+
 📸Screenshots
 Application Interface
 
 <img width="1024" height="1536" alt="INTERFACE" src="https://github.com/user-attachments/assets/31e9cff5-50a5-43f9-a4d5-12a546744c6f" />
 
-Download Confirmatio
+Download Confirmation
 <img width="1024" height="1536" alt="COMPLETE" src="https://github.com/user-attachments/assets/babe8d5a-f324-4e14-ad24-dd748427089a" />
-n
+
 
 🛠️Tech Stack
 Python 3.x
+
 Tkinter for the graphical user interface
+
 Pytube for handling YouTube video streams
 
+
 📂Project Structure
+
 .
 ├── youtube_downloader.py
+
 ├── assets/
+
 │   ├── home_screen.png
+
 │   └── success_message.png
+
 └── README.md
+
 ▶️Running the Project:-
+
 1. Install Dependencies
 pip install pytube
-2. Start the Application
+
+3. Start the Application
 python youtube_downloader.py
+
 🧩Source Code
 
 import tkinter as tk
+
 from tkinter import *
+
 from pytube import YouTube
+
 from tkinter import messagebox, filedialog
  
 def Widgets():
