@@ -1,4 +1,5 @@
-#YouTube Video Downloader
+YouTube Video Downloader
+
 A streamlined desktop application built with Python, Tkinter, and Pytube, designed to download YouTube videos in the highest available resolution.
 The tool provides a clean and intuitive interface, making video downloads accessible to both technical and non-technical users.
 
